@@ -1,0 +1,40 @@
+{
+  "name": "scribunto-console",
+  "author": {
+    "name": "Eric Gardner",
+    "email": "jgjake22@gmail.com",
+    "url": "http://starwars.wikia.com/wiki/User:Jgjake2"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "scribunto-console.js",
+  "scripts": {
+    "test": "node example/example.js",
+    "start": "node scribunto-console.js"
+  },
+  "contributors": [
+    {
+      "name": "Eric Gardner",
+      "email": "jgjake22@gmail.com"
+    }
+  ],
+  "keywords": [
+    "wiki",
+    "wikia",
+    "mediawiki",
+    "scribunto"
+  ],
+  "dependencies": {
+    "extend": "3.x.x",
+    "promise": "7.x.x"
+  },
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Eric Gardner",
+      "email": "jgjake22@gmail.com"
+    }
+  ]
+}

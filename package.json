@@ -6,7 +6,7 @@
     "url": "http://starwars.wikia.com/wiki/User:Jgjake2"
   },
   "version": "0.0.1",
-  "description": "",
+  "description": "Node module for remote debugging of MediaWiki Lua Modules using the scribunto console API.",
   "main": "scribunto-console.js",
   "scripts": {
     "test": "node example/example.js",
@@ -19,9 +19,13 @@
     }
   ],
   "keywords": [
+    "lua",
     "wiki",
     "wikia",
     "mediawiki",
+    "wikitext",
+    "debugging",
+    "console",
     "scribunto"
   ],
   "dependencies": {
@@ -29,6 +33,13 @@
     "promise": "7.x.x"
   },
   "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgjake2/scribunto-console"
+  },
+  "bugs": {
+    "url": "https://github.com/jgjake2/scribunto-console/issues"
   },
   "license": "MIT",
   "maintainers": [
